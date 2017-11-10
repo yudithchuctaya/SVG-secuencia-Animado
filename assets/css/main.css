@@ -11,6 +11,11 @@ h1{
 	text-align: center;
 	color: #F9D535;
 }
+.text:hover{
+	color:  #DFB828;
+	transform: scale(1.1);
+	
+}
 
 /*========================
  keyframes
