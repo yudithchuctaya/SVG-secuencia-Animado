@@ -36,7 +36,7 @@ h1{
 		transform: rotate(0) scale(0);
 		opacity:0;
 	}
-	30%{
+	60%{
 		transform: rotate(375deg) scale(1.1);
 	}
 	80%{
@@ -48,7 +48,7 @@ h1{
 }
 @keyframes pulse{
 	50%{
-		transform: scale(0.4);
+		transform: scale(1.4);
 	}
 }
 
@@ -65,7 +65,7 @@ h1{
 	animation: grow 1s ease-out backwards;
 }
 .inner{
-	animation-delay: 1s;
+	animation-delay: .1s;
 }
 .inline{
 	animation-delay: .15s;
